@@ -4,5 +4,6 @@ https://en.wikipedia.org/wiki/3-partition_problem
 
 Dane wejściowe:
 - zbiór/tablica liczb naturalnych
+
 Dane wyjściowe
 - zbiory/tablice trzyelementowe liczb o jednakowej sumie
