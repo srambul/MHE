@@ -1,23 +1,57 @@
-﻿// MHE-3-Pratition-Problem.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+﻿#include <iostream>
+#include <vector>
+#include <cstdlib>
 
-#include <iostream>
+using namespace std;
 
-int main()
+int temporaryInput = 0;
+int vectorSize;
+bool isDividableByThree = false;
+vector<int> inputVector;
+
+int calculate(vector<int> inputVectorSet)
 {
-    using namespace std;
-    
-    
-    cout << "Hello World!\n";
+
+    cout << "Input Set = { ";
+    for (int n : inputVectorSet) {
+        std::cout << n << ", ";
+    }
+    std::cout << "}; \n";
+    return 0;
 }
 
-// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-// Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
+int main(int argc, char* argv[])
+{
+    inputVector.clear();
+    for (int x = 1; x < argc ;x++)
+    {
+        
+        temporaryInput = atoi(argv[x]);
+        inputVector.push_back(temporaryInput);
+    }
 
-// Porady dotyczące rozpoczynania pracy:
-//   1. Użyj okna Eksploratora rozwiązań, aby dodać pliki i zarządzać nimi
-//   2. Użyj okna programu Team Explorer, aby nawiązać połączenie z kontrolą źródła
-//   3. Użyj okna Dane wyjściowe, aby sprawdzić dane wyjściowe kompilacji i inne komunikaty
-//   4. Użyj okna Lista błędów, aby zobaczyć błędy
-//   5. Wybierz pozycję Projekt > Dodaj nowy element, aby utworzyć nowe pliki kodu, lub wybierz pozycję Projekt > Dodaj istniejący element, aby dodać istniejące pliku kodu do projektu
-//   6. Aby w przyszłości ponownie otworzyć ten projekt, przejdź do pozycji Plik > Otwórz > Projekt i wybierz plik sln
+    while (isDividableByThree == false)
+    {
+
+        if (inputVector.size() % 3 == 0)
+        {
+            isDividableByThree = true;
+            
+        }
+        else
+        {
+            cout << "The set You provided isn't dividable by 3. Please run program once again and insert correct size set " << endl;
+            cout << "The set size You provided is" + inputVector.size() << endl;
+
+            return 0;
+        }
+    }
+    calculate(inputVector);
+
+
+    cout << "Type anything and press enter to close";
+    int x;
+    cin >>x;
+    return 0;
+}
+
