@@ -11,7 +11,7 @@ if len(sys.argv) > 1:
 else:
     maxProblemInputValue = 20
 
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
     maxProblemInputLenght = int(sys.argv[2])
 else:
     maxProblemInputLenght = 20
