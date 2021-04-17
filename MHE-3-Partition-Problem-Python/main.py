@@ -7,17 +7,18 @@ exampleProblem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 exampleSolution = [[9, 3, 2], [8, 5, 1], [7, 3, 4]]
 
 if len(sys.argv) > 1:
-    maxProblemInputValue = sys.argv[1]
+    maxProblemInputValue = int(sys.argv[1])
 else:
     maxProblemInputValue = 20
 
 if len(sys.argv) > 1:
-    maxProblemInputLenght = sys.argv[2]
+    maxProblemInputLenght = int(sys.argv[2])
 else:
     maxProblemInputLenght = 20
 
 def generate_problem():
     dividableByThree = False
+    sumDividableByNumberOfSubsets = False
     problem = []
     while not dividableByThree:
         randomProblemLenght = int(random.uniform(0, maxProblemInputLenght))
@@ -27,8 +28,17 @@ def generate_problem():
             dividableByThree = True
             print("generated problem lenght is: ", randomProblemLenght)
 
-    for i in range(0, randomProblemLenght):
-        problem.append(int(random.uniform(0, maxProblemInputValue)))
+    numberOfSubsets = int(randomProblemLenght / 3)
+    while not sumDividableByNumberOfSubsets:
+        problem.clear()
+        for i in range(0, randomProblemLenght):
+            problem.append(int(random.uniform(0, maxProblemInputValue)))
+        print("Proposed problem: ", problem)
+        if sum(problem) % numberOfSubsets == 0:
+            sumDividableByNumberOfSubsets = True
+        else:
+            print("Proposed above problem does not qualify for calculations")
+
     print("Our problem: ", problem)
     return problem
 
