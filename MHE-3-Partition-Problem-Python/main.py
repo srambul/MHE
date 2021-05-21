@@ -26,7 +26,7 @@ def GenerateProblem():
     sumDividableByNumberOfSubsets = False
     problem = []
     while not dividableByThree:
-        randomProblemLenght = int(random.uniform(0, maxProblemInputLenght))
+        randomProblemLenght = int(random.uniform(6, maxProblemInputLenght))
         print("random lenght number: ", randomProblemLenght)
 
         if randomProblemLenght % 3 == 0 and randomProblemLenght != 0:
@@ -37,7 +37,7 @@ def GenerateProblem():
     while not sumDividableByNumberOfSubsets:
         problem.clear()
         for i in range(0, randomProblemLenght):
-            problem.append(int(random.uniform(0, maxProblemInputValue)))
+            problem.append(int(random.uniform(1, maxProblemInputValue)))
         print("Proposed problem: ", problem)
         if sum(problem) % numberOfSubsets == 0:
             sumDividableByNumberOfSubsets = True
@@ -57,11 +57,21 @@ def GenerateFirstRandomSolution(problemLenght):
     return generatedFirstRandomSolution
 
 def GoalFunction(solution, problem):
-    finalSum = set()
+    numberOfSubsets = int(len(problem) / 3)
     it = iter(solution)
+    perfectSum = int(sum(problem) / numberOfSubsets)
+    print("perfect sum: " + str(perfectSum))
+    subSets = set()
     for a, b, c in zip(it, it, it):
-        finalSum.add(problem[a] + problem[b] + problem[c])
-    return len(finalSum)
+        subSets.add(problem[a] + problem[b] + problem[c])
+        print("subset:" + str(problem[a]) + "," + str(problem[b]) + "," + str(problem[c]) + " Sum: " + str(problem[a] + problem[b] + problem[c]))
+    score = 0
+    for subSet in subSets:
+        score = score + abs(perfectSum - subSet)
+    print("Distance: " + str(score))
+    return score
+    
+    
 
 
 def FullSearch(goalFunction, problem, printSolutionFunction):
@@ -72,7 +82,7 @@ def FullSearch(goalFunction, problem, printSolutionFunction):
         if (goalFunction(newPotentialSolution) < goalFunction(currentBestSolution)):
             currentBestSolution = newPotentialSolution
         printSolutionFunction(iterationIndex, currentBestSolution, goalFunction)
-        iterationIndex + 1
+        iterationIndex = iterationIndex + 1
     return currentBestSolution
 
 def hillClimbingRandomized(goalFunction, generatedFirstRandomSolution, generateRandomNeighbourFunction, iterations, printSolutionFunction):
@@ -111,21 +121,44 @@ def getRandomNeighbour(currentBestSolution):
     bestSolutionCopy[randomSolutionIndex] = currentBestSolution[(randomSolutionIndex + 1) % len(currentBestSolution)]
     return bestSolutionCopy
 
+def getRandomNeighbour2(currentBestSolution):
+    for i in range(0, int(min(abs( random.normalvariate(0.0,2.0)) + 1,500)) ):
+        randomSolutionIndex = int(random.uniform(0, len(currentBestSolution)-1))
+        bestSolutionCopy = copy.deepcopy(currentBestSolution)
+        bestSolutionCopy[(randomSolutionIndex + 1) % len(currentBestSolution)] = currentBestSolution[randomSolutionIndex]
+        bestSolutionCopy[randomSolutionIndex] = currentBestSolution[(randomSolutionIndex + 1) % len(currentBestSolution)]
+        currentBestSolution = bestSolutionCopy
+    return currentBestSolution
 
-
-
-def printSolution(iterationIndex, currentBestSolution, goalFunction):
+def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
     print("" + str(iterationIndex) + " " + str(goalFunction(currentBestSolution)))
+
+def simAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, T, iterations, printSolutionFunction):
+    currentBest = generatedFirstRandomSolution()
+    V = [currentBest]
+    for i in range(1, iterations+1):
+        newPotentialSolution = generatedBestNeighbour(currentBest)
+        if (goalFunction(newPotentialSolution) <= goalFunction(currentBest)):
+            currentBest = newPotentialSolution
+            V.append(currentBest)
+        else:
+            e = math.exp(- abs(goalFunction(newPotentialSolution) - goalFunction(currentBest))/T(i))
+            u = random.uniform(0.0,1.0)
+            if (u < e):
+                currentBest = newPotentialSolution
+                V.append(currentBest)
+        printSolutionFunction(i-1, currentBest, goalFunction)
+    
+    return min(V, key=goalFunction)
 
 generatedProblem = GenerateProblem()
 #goal_function(sol1, exampleProblem)
 #goal_function(generate_first_solution(generatedProblem), generatedProblem)
-#FullSearch(lambda s: goal_function(s, exampleProblem), exampleProblem, printSolution)
+FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
 #generate_first_solution(exampleProblem)
-iterations = 10000
-
-
-#hillClimbingRandomized(lambda s: GoalFunction(s, exampleProblem), lambda: GenerateFirstRandomSolution(len(exampleProblem)), getRandomNeighbour, iterations, printSolution)
-hillClimbingDeterministic(lambda s: GoalFunction(s, exampleProblem), lambda: GenerateFirstRandomSolution(len(exampleProblem)), getBestNeighbour, iterations, printSolution)
-
+iterations = 1000
+#hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
+#hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
+#finalSolution = simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
+#print(GoalFunction(finalSolution,generatedProblem))
 
