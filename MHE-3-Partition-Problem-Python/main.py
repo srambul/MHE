@@ -21,7 +21,7 @@ if len(sys.argv) > 2:
 else:
     maxProblemInputLenght = 20
 
-def generate_problem():
+def GenerateProblem():
     dividableByThree = False
     sumDividableByNumberOfSubsets = False
     problem = []
@@ -47,7 +47,16 @@ def generate_problem():
     print("Our problem: ", problem)
     return problem
 
-def goal_function(solution, problem):
+def GenerateFirstRandomSolution(problemLenght):
+    generatedFirstRandomSolution = []
+    problemIndexList = list(range(0, problemLenght))
+    for i in range(0, problemLenght):
+        randomProblemIndex = int(random.uniform(0, len(problemIndexList) - 1))
+        generatedFirstRandomSolution.append(problemIndexList[randomProblemIndex])
+        del problemIndexList[randomProblemIndex]
+    return generatedFirstRandomSolution
+
+def GoalFunction(solution, problem):
     finalSum = set()
     it = iter(solution)
     for a, b, c in zip(it, it, it):
@@ -55,86 +64,68 @@ def goal_function(solution, problem):
     return len(finalSum)
 
 
-def fullSearch(goal, problem, onIteration):
-    f = list(range(0, len(problem)))
-    currentBest = f
-    i = 0
-    for newSol in itertools.permutations(f):
-        if (goal(newSol) < goal(currentBest)):
-            currentBest = newSol
-        onIteration(i, currentBest, goal)
-        i = i + 1
-    return currentBest
+def FullSearch(goalFunction, problem, printSolutionFunction):
+    potentialSolution = list(range(0, len(problem)))
+    currentBestSolution = potentialSolution
+    iterationIndex = 0
+    for newPotentialSolution in itertools.permutations(potentialSolution):
+        if (goalFunction(newPotentialSolution) < goalFunction(currentBestSolution)):
+            currentBestSolution = newPotentialSolution
+        printSolutionFunction(iterationIndex, currentBestSolution, goalFunction)
+        iterationIndex + 1
+    return currentBestSolution
 
-def printSolution(i, currentBest, goal):
-    print("" + str(i) + " " + str(goal(currentBest)))
-
-
-def hillClimbingRandomized(goal, gensol, genNeighbour, iterations, onIteration):
-    '''goal - funkcja celu (to optymalizujemy),
-    gensol - generowanie losowego rozwiazania,
-    genNeighbour - generowanie losowego punktu z otoczenia rozwiazania,
-    iterations - liczba iteracji alg.'''
-    currentBest = gensol()
+def hillClimbingRandomized(goalFunction, generatedFirstRandomSolution, generateRandomNeighbourFunction, iterations, printSolutionFunction):
+    currentBestSolution = generatedFirstRandomSolution()
     for i in range(0, iterations):
-        newSol = genNeighbour(currentBest)
-        if (goal(newSol) <= goal(currentBest)):
-            currentBest = newSol
-        onIteration(i, currentBest, goal)
-    return currentBest
+        newPotentialSolution = generateRandomNeighbourFunction(currentBestSolution)
+        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)):
+            currentBestSolution = newPotentialSolution
+        printSolutionFunction(i, currentBestSolution, goalFunction)
+    return currentBestSolution
 
-def hillClimbingDeterministic(goal, gensol, genBestNeighbour, iterations,onIteration):
-    '''goal - funkcja celu (to optymalizujemy),
-    gensol - generowanie losowego rozwiazania,
-    genNeighbour - generowanie losowego punktu z otoczenia rozwiazania,
-    iterations - liczba iteracji alg.'''
-    currentBest = gensol()
+def hillClimbingDeterministic(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, iterations, printSolutionFunction):
+    currentBestSolution = generatedFirstRandomSolution()
     for i in range(0, iterations):
-        newSol = genBestNeighbour(currentBest, goal)
-        if (newSol == currentBest):
-            return currentBest
-        currentBest = newSol
-        onIteration(i, currentBest, goal)
-    return currentBest
+        newPotentialSolution = generatedBestNeighbour(currentBestSolution, goalFunction)
+        if (newPotentialSolution == currentBestSolution):
+            return currentBestSolution
+        currentBestSolution = newPotentialSolution
+        printSolutionFunction(i, currentBestSolution, goalFunction)
+    return currentBestSolution
 
-def getBestNeighbour(currPoint, goal):
-    best = currPoint
-    for swapPoint in range(0,len(currPoint)-1):
-        newPoint = copy.deepcopy(currPoint)
-        newPoint[(swapPoint+1) % len(currPoint)] = currPoint[swapPoint]
-        newPoint[swapPoint] = currPoint[(swapPoint+1) % len(currPoint)]
-        if (goal(newPoint) <= goal(best)):
-            best = newPoint
-    return best
+def getBestNeighbour(currentBestSolution, goalFunction):
+    currentBestSolution
+    for index in range(0, len(currentBestSolution)-1):
+        bestSolutionCopy = copy.deepcopy(currentBestSolution)
+        bestSolutionCopy[(index + 1) % len(currentBestSolution)] = currentBestSolution[index]
+        bestSolutionCopy[index] = currentBestSolution[(index + 1) % len(currentBestSolution)]
+        if (goalFunction(bestSolutionCopy) <= goalFunction(currentBestSolution)):
+            currentBestSolution = bestSolutionCopy
+    return currentBestSolution
 
-def getRandomNeighbour(currPoint):
-    swapPoint = int(random.uniform(0, len(currPoint) - 1))
-    newPoint = copy.deepcopy(currPoint)
-    newPoint[(swapPoint + 1) % len(currPoint)] = currPoint[swapPoint]
-    newPoint[swapPoint] = currPoint[(swapPoint + 1) % len(currPoint)]
-    return newPoint
-
-def generateRandomSolution(n):
-    r = []
-    f = list(range(0, n))
-    for i in range(0, n):
-        p = int(random.uniform(0, len(f) - 1))
-        r.append(f[p])
-        del f[p]
-        # print(f)
-        # print(r)
-    return r
+def getRandomNeighbour(currentBestSolution):
+    randomSolutionIndex = int(random.uniform(0, len(currentBestSolution) - 1))
+    bestSolutionCopy = copy.deepcopy(currentBestSolution)
+    bestSolutionCopy[(randomSolutionIndex + 1) % len(currentBestSolution)] = currentBestSolution[randomSolutionIndex]
+    bestSolutionCopy[randomSolutionIndex] = currentBestSolution[(randomSolutionIndex + 1) % len(currentBestSolution)]
+    return bestSolutionCopy
 
 
-generatedProblem = generate_problem()
+
+
+def printSolution(iterationIndex, currentBestSolution, goalFunction):
+    print("" + str(iterationIndex) + " " + str(goalFunction(currentBestSolution)))
+
+generatedProblem = GenerateProblem()
 #goal_function(sol1, exampleProblem)
 #goal_function(generate_first_solution(generatedProblem), generatedProblem)
-#fullSearch(lambda s: goal_function(s, exampleProblem), exampleProblem, printSolution)
+#FullSearch(lambda s: goal_function(s, exampleProblem), exampleProblem, printSolution)
 #generate_first_solution(exampleProblem)
-iterations = 1000000
+iterations = 10000
 
 
-hillClimbingRandomized(lambda s: goal_function(s, generatedProblem), lambda: generateRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, printSolution)
-#hillClimbingDeterministic(lambda s: goal_function(s, generatedProblem), lambda: generateRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, printSolution)
+#hillClimbingRandomized(lambda s: GoalFunction(s, exampleProblem), lambda: GenerateFirstRandomSolution(len(exampleProblem)), getRandomNeighbour, iterations, printSolution)
+hillClimbingDeterministic(lambda s: GoalFunction(s, exampleProblem), lambda: GenerateFirstRandomSolution(len(exampleProblem)), getBestNeighbour, iterations, printSolution)
 
 
