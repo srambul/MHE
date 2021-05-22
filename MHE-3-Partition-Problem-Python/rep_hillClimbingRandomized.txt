@@ -1,0 +1,6621 @@
+problem iterations were set to 300
+generating problem 
+random lenght number:  15
+generated problem lenght is:  15
+Proposed problem:  [2, 12, 9, 6, 7, 13, 17, 3, 16, 17, 8, 12, 1, 7, 14]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [9, 2, 4, 3, 1, 4, 1, 8, 14, 8, 17, 3, 8, 12, 4]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [8, 16, 5, 4, 14, 18, 7, 15, 5, 14, 2, 3, 2, 4, 7]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [3, 5, 6, 19, 17, 11, 2, 3, 12, 5, 7, 16, 4, 14, 18]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [8, 9, 5, 13, 15, 17, 5, 13, 14, 13, 7, 16, 10, 5, 7]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [9, 15, 2, 12, 16, 4, 19, 8, 18, 7, 13, 3, 14, 4, 19]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [6, 7, 6, 14, 17, 3, 6, 14, 13, 15, 9, 15, 15, 18, 18]
+Proposed above problem does not qualify for calculations
+Proposed problem:  [11, 3, 13, 5, 10, 1, 3, 1, 1, 9, 4, 5, 10, 5, 9]
+Our problem:  [11, 3, 13, 5, 10, 1, 3, 1, 1, 9, 4, 5, 10, 5, 9]
+hillClimbingRandomized chosen 
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,11 Sum: 26
+subset:9,1,5 Sum: 15
+subset:4,3,9 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,11 Sum: 26
+subset:9,1,4 Sum: 14
+subset:5,3,9 Sum: 17
+Distance: 15
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,11 Sum: 26
+subset:9,1,5 Sum: 15
+subset:4,3,9 Sum: 16
+Distance: 14
+0 | Score distance: 14
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,11 Sum: 26
+subset:9,1,5 Sum: 15
+subset:4,3,9 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+1 | Score distance: 9
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+2 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+3 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:5,10,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+4 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,11 Sum: 26
+subset:9,1,5 Sum: 15
+subset:4,9,3 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+5 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,5,9 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+6 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:11,1,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+7 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+8 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+9 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+10 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+11 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+12 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+13 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+14 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+15 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:3,5,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+16 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+17 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,5,9 Sum: 17
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,5,9 Sum: 17
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+18 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,5,9 Sum: 17
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+19 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+20 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,10 Sum: 26
+subset:1,5,9 Sum: 15
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+21 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,3,9 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+22 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,4 Sum: 16
+subset:5,9,3 Sum: 17
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+23 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,11,5 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+24 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+25 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,10 Sum: 26
+subset:1,5,9 Sum: 15
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+26 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,1 Sum: 16
+subset:9,5,11 Sum: 25
+subset:4,9,3 Sum: 16
+Distance: 10
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+27 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,1 Sum: 16
+subset:9,5,11 Sum: 25
+subset:4,9,3 Sum: 16
+Distance: 10
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+28 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,4 Sum: 10
+subset:11,9,3 Sum: 23
+Distance: 22
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+29 | Score distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,9,3 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+30 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+31 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:4,3,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+32 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,3 Sum: 9
+subset:11,4,9 Sum: 24
+Distance: 18
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+33 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,5,9 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+34 | Score distance: 9
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,3,1 Sum: 14
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+35 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+36 | Score distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+37 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:3,4,9 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+38 | Score distance: 8
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,1,3 Sum: 14
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+39 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,3 Sum: 13
+subset:11,4,9 Sum: 24
+Distance: 16
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+40 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+41 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,1,9 Sum: 13
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 16
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+42 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,1,9 Sum: 13
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 16
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+43 | Score distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+44 | Score distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+45 | Score distance: 8
+perfect sum: 18
+subset:1,10,13 Sum: 24
+subset:5,1,3 Sum: 9
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 22
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+46 | Score distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+47 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+48 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+49 | Score distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+50 | Score distance: 8
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+51 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+52 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+53 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+54 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+55 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,4 Sum: 14
+subset:11,3,9 Sum: 23
+Distance: 14
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+56 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,9 Sum: 23
+subset:3,10,1 Sum: 14
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 14
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+57 | Score distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:4,3,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+58 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+59 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,4,9 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+60 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+61 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,3 Sum: 13
+subset:11,9,4 Sum: 24
+Distance: 16
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+62 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,3 Sum: 13
+subset:11,9,4 Sum: 24
+Distance: 16
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+63 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+64 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+65 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+66 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+67 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+68 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:3,9,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+69 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+70 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+71 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+72 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,5 Sum: 24
+subset:1,5,11 Sum: 17
+subset:9,3,4 Sum: 16
+Distance: 9
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+73 | Score distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,11 Sum: 21
+subset:9,3,4 Sum: 16
+Distance: 8
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+74 | Score distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+75 | Score distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,5,9 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+76 | Score distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:3,11,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:11,3,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:3,11,4 Sum: 18
+Distance: 6
+77 | Score distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,5 Sum: 19
+subset:3,11,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+78 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+79 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+80 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+81 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,9 Sum: 28
+subset:1,5,3 Sum: 9
+subset:5,11,4 Sum: 20
+Distance: 24
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+82 | Score distance: 5
+perfect sum: 18
+subset:10,1,1 Sum: 12
+subset:5,13,3 Sum: 21
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+83 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+84 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+85 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+86 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+87 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+88 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+89 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+90 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+91 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+92 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+93 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+94 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+95 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+96 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,3 Sum: 14
+subset:9,9,5 Sum: 23
+subset:11,5,4 Sum: 20
+Distance: 14
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+97 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+98 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+99 | Score distance: 5
+perfect sum: 18
+subset:10,1,3 Sum: 14
+subset:5,1,13 Sum: 19
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+100 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,3 Sum: 22
+subset:1,9,5 Sum: 15
+subset:5,11,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+101 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+102 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+103 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+104 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+105 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+106 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+107 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+108 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+109 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+110 | Score distance: 5
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,1,3 Sum: 14
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+111 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+112 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,3 Sum: 22
+subset:1,5,9 Sum: 15
+subset:5,4,11 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+113 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,9 Sum: 23
+subset:3,10,1 Sum: 14
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+114 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+115 | Score distance: 5
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,1,3 Sum: 14
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+116 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+117 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,3 Sum: 22
+subset:1,5,9 Sum: 15
+subset:5,4,11 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+118 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,9 Sum: 23
+subset:3,10,1 Sum: 14
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+119 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,3 Sum: 22
+subset:1,5,9 Sum: 15
+subset:5,4,11 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+120 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+121 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,3 Sum: 22
+subset:1,5,9 Sum: 15
+subset:4,5,11 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+122 | Score distance: 5
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,1,3 Sum: 14
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+123 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,4 Sum: 12
+subset:9,5,11 Sum: 25
+Distance: 18
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+124 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+125 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+126 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+127 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+128 | Score distance: 5
+perfect sum: 18
+subset:1,5,13 Sum: 19
+subset:10,1,3 Sum: 14
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+129 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,9 Sum: 23
+subset:3,10,1 Sum: 14
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+130 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+131 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+132 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+133 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,3 Sum: 22
+subset:1,9,5 Sum: 15
+subset:11,4,5 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+134 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,9 Sum: 23
+subset:3,10,1 Sum: 14
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 14
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+135 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+136 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,3 Sum: 22
+subset:1,9,5 Sum: 15
+subset:11,4,5 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+137 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+138 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+139 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+140 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,9 Sum: 28
+subset:1,3,5 Sum: 9
+subset:11,4,5 Sum: 20
+Distance: 24
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+141 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+142 | Score distance: 5
+perfect sum: 18
+subset:5,10,13 Sum: 28
+subset:1,1,3 Sum: 5
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 26
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+143 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+144 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+145 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,3 Sum: 22
+subset:1,5,9 Sum: 15
+subset:11,4,5 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+146 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+147 | Score distance: 5
+perfect sum: 18
+subset:5,10,13 Sum: 28
+subset:1,3,1 Sum: 5
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 26
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+148 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+149 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+150 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+151 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+152 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+153 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+154 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:1,10,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:1,10,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+155 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:1,10,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+156 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+157 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+158 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,13,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+159 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,11 Sum: 23
+subset:5,5,4 Sum: 14
+Distance: 14
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+160 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+161 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+162 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+163 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+164 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+165 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+166 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+167 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+168 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,3 Sum: 22
+subset:1,9,5 Sum: 15
+subset:5,11,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+169 | Score distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+170 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,1,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+171 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+172 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+173 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+174 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+175 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+176 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+177 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+178 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+179 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+180 | Score distance: 5
+perfect sum: 18
+subset:5,10,3 Sum: 18
+subset:1,1,13 Sum: 15
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 6
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+181 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+182 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,9,5 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+183 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:3,5,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+184 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+185 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+186 | Score distance: 5
+perfect sum: 18
+subset:10,5,3 Sum: 18
+subset:1,13,1 Sum: 15
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+187 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+188 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,10 Sum: 26
+subset:1,9,1 Sum: 11
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 20
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+189 | Score distance: 5
+perfect sum: 18
+subset:10,5,3 Sum: 18
+subset:1,13,1 Sum: 15
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+190 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,11 Sum: 19
+subset:9,5,4 Sum: 18
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+191 | Score distance: 5
+perfect sum: 18
+subset:10,5,3 Sum: 18
+subset:1,13,1 Sum: 15
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 6
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+192 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+193 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+194 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+195 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:5,11,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+196 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+197 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+198 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+199 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+200 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+201 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+202 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+203 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+204 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+205 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,3,9 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+206 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,11 Sum: 25
+subset:3,5,4 Sum: 12
+Distance: 18
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+207 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+208 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+209 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+210 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+211 | Score distance: 5
+perfect sum: 18
+subset:10,1,1 Sum: 12
+subset:5,13,3 Sum: 21
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+212 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+213 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,10,1 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+214 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+215 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,13,3 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+216 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+217 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+218 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,5 Sum: 15
+subset:10,9,3 Sum: 22
+subset:11,5,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+219 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,9 Sum: 13
+subset:13,1,10 Sum: 24
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 16
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+220 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,11 Sum: 25
+subset:3,5,4 Sum: 12
+Distance: 18
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+221 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+222 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,5 Sum: 15
+subset:10,9,3 Sum: 22
+subset:11,5,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+223 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,5 Sum: 15
+subset:10,9,3 Sum: 22
+subset:11,5,4 Sum: 20
+Distance: 12
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+224 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+225 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+226 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+227 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,11 Sum: 25
+subset:3,4,5 Sum: 12
+Distance: 18
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+228 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+229 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+230 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:1,3,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+231 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,11 Sum: 25
+subset:3,5,4 Sum: 12
+Distance: 18
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+232 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,5,4 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+233 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:5,9,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+234 | Score distance: 5
+perfect sum: 18
+subset:1,5,3 Sum: 9
+subset:10,1,13 Sum: 24
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 18
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+235 | Score distance: 5
+perfect sum: 18
+subset:1,5,3 Sum: 9
+subset:10,1,13 Sum: 24
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 18
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+236 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+237 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+238 | Score distance: 5
+perfect sum: 18
+subset:1,10,3 Sum: 14
+subset:5,1,13 Sum: 19
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+239 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+240 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+241 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:11,4,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+242 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+243 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+244 | Score distance: 5
+perfect sum: 18
+subset:10,1,3 Sum: 14
+subset:5,13,1 Sum: 19
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+245 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,9 Sum: 19
+subset:10,3,5 Sum: 18
+subset:4,11,5 Sum: 20
+Distance: 6
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+246 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+247 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:9,1,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+248 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+249 | Score distance: 5
+perfect sum: 18
+subset:1,10,3 Sum: 14
+subset:5,13,1 Sum: 19
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+250 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+251 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,4 Sum: 16
+subset:5,11,5 Sum: 21
+Distance: 8
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+252 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+253 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+254 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+255 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+256 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,4 Sum: 18
+subset:3,11,5 Sum: 19
+Distance: 6
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+257 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+258 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+259 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+260 | Score distance: 5
+perfect sum: 18
+subset:1,10,3 Sum: 14
+subset:5,13,1 Sum: 19
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+261 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+262 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+263 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,4 Sum: 16
+subset:5,11,5 Sum: 21
+Distance: 8
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+264 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+265 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+266 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+267 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+268 | Score distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+269 | Score distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,5,10 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+270 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:1,10,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+271 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+272 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+273 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,1,13 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+274 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+275 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+276 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+277 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+278 | Score distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+279 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,1,5 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+280 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+281 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+282 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:3,13,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+283 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,9,10 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+284 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:1,10,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+285 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+286 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,11,5 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+287 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,10 Sum: 26
+subset:1,1,9 Sum: 11
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 20
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+288 | Score distance: 5
+perfect sum: 18
+subset:5,10,13 Sum: 28
+subset:1,3,1 Sum: 5
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 26
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+289 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,4 Sum: 16
+subset:5,5,11 Sum: 21
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+290 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+291 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,4 Sum: 16
+subset:5,5,11 Sum: 21
+Distance: 8
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+292 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,3,1 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+293 | Score distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,3,5 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+294 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:5,10,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+295 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,10 Sum: 24
+subset:3,9,1 Sum: 13
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 16
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+296 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:4,5,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+297 | Score distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,9,1 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+298 | Score distance: 5
+perfect sum: 18
+subset:10,5,13 Sum: 28
+subset:1,1,3 Sum: 5
+subset:10,1,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 26
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+perfect sum: 18
+subset:10,5,1 Sum: 16
+subset:13,1,3 Sum: 17
+subset:10,1,9 Sum: 20
+subset:9,5,3 Sum: 17
+subset:5,4,11 Sum: 20
+Distance: 5
+299 | Score distance: 5

@@ -66,69 +66,65 @@ def FullSearch(goalFunction, problem, printSolutionFunction):
     return currentBestSolution
 
 def HillClimbingRandomized(goalFunction, generatedFirstRandomSolution, generateRandomNeighbourFunction, iterations, printSolutionFunction):
-    currentBestSolution = generatedFirstRandomSolution()
-    for i in range(0, iterations):
-        newPotentialSolution = generateRandomNeighbourFunction(currentBestSolution)
-        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)):
-            currentBestSolution = newPotentialSolution
-        printSolutionFunction(i, currentBestSolution, goalFunction)
-    return currentBestSolution
-
-def HillClimbingDeterministic(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, iterations, printSolutionFunction):
-    currentBestSolution = generatedFirstRandomSolution()
-    for i in range(0, iterations):
-        newPotentialSolution = generatedBestNeighbour(currentBestSolution, goalFunction)
-        if (newPotentialSolution == currentBestSolution):
-            return currentBestSolution
-        currentBestSolution = newPotentialSolution
-        printSolutionFunction(i, currentBestSolution, goalFunction)
-    return currentBestSolution
-
-def GetBestNeighbour(currentBestSolution, goalFunction):
-    currentBestSolution
-    for index in range(0, len(currentBestSolution)-1):
-        bestSolutionCopy = copy.deepcopy(currentBestSolution)
-        bestSolutionCopy[(index + 1) % len(currentBestSolution)] = currentBestSolution[index]
-        bestSolutionCopy[index] = currentBestSolution[(index + 1) % len(currentBestSolution)]
-        if (goalFunction(bestSolutionCopy) <= goalFunction(currentBestSolution)):
-            currentBestSolution = bestSolutionCopy
-    return currentBestSolution
+    currentBestSolution = generatedFirstRandomSolution() #generating randomely rearanged problem as first solution
+    for i in range(0, iterations): #foreach iteration
+        newPotentialSolution = generateRandomNeighbourFunction(currentBestSolution) #new potential solution by swaping two indexes of values
+        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)): #comparing if goal of new potential solution is better than first solution/new best solution
+            currentBestSolution = newPotentialSolution #if is better, current best solution is the previous potential solution
+        printSolutionFunction(i, currentBestSolution, goalFunction) # printing info about iteration, goal "score" and subsets
+    return currentBestSolution #after comaparing all potential solutions in iterations, returns solution with best goal "score"
 
 def GetRandomNeighbour(currentBestSolution):
-    randomSolutionIndex = int(random.uniform(0, len(currentBestSolution) - 1))
-    bestSolutionCopy = copy.deepcopy(currentBestSolution)
-    bestSolutionCopy[(randomSolutionIndex + 1) % len(currentBestSolution)] = currentBestSolution[randomSolutionIndex]
-    bestSolutionCopy[randomSolutionIndex] = currentBestSolution[(randomSolutionIndex + 1) % len(currentBestSolution)]
-    return bestSolutionCopy
+    isIndexTheSame = False
+    randomValueIndexToSwap = int(random.uniform(0, len(currentBestSolution) - 1)) #random index of neighbour eg [4]
+    while isIndexTheSame == True:
+        randomNeghbourIndex = int(random.uniform(0, len(currentBestSolution) - 1)) == randomValueIndexToSwap
+        if(randomNeghbourIndex == randomValueIndexToSwap):
+            isIndexTheSame=True
+    bestSolutionCopy = copy.deepcopy(currentBestSolution) #copy of currentBestSolution - not reference
+    bestSolutionCopy[(randomValueIndexToSwap + 1) % len(currentBestSolution)] = currentBestSolution[randomValueIndexToSwap] #eg bestSolutionCopy[(4+1%9)=5]=currentBestSolution[4]
+    bestSolutionCopy[randomValueIndexToSwap] = currentBestSolution[(randomValueIndexToSwap + 1) % len(currentBestSolution)] #eg bestSolutionCopy[4]=currentBestSolution[sam as above = 5]
+    return bestSolutionCopy #returns solution with swaped two indexes of values
 
-def GetRandomNeighbour2(currentBestSolution):
-    for i in range(0, int(min(abs( random.normalvariate(0.0,2.0)) + 1,500)) ):
-        randomSolutionIndex = int(random.uniform(0, len(currentBestSolution)-1))
-        bestSolutionCopy = copy.deepcopy(currentBestSolution)
-        bestSolutionCopy[(randomSolutionIndex + 1) % len(currentBestSolution)] = currentBestSolution[randomSolutionIndex]
-        bestSolutionCopy[randomSolutionIndex] = currentBestSolution[(randomSolutionIndex + 1) % len(currentBestSolution)]
-        currentBestSolution = bestSolutionCopy
-    return currentBestSolution
+def HillClimbingDeterministic(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, iterations, printSolutionFunction):
+    currentBestSolution = generatedFirstRandomSolution() #generating randomely rearanged problem as first solution
+    for i in range(0, iterations): #foreach iteration
+        newPotentialSolution = generatedBestNeighbour(currentBestSolution, goalFunction) #new potential solution by selecting best neighbour
+        if (newPotentialSolution == currentBestSolution): #if we approach the same potential solution as current best, print and return the currentBestSolution
+            printSolutionFunction(i, currentBestSolution, goalFunction)
+            return currentBestSolution
+        currentBestSolution = newPotentialSolution #if is different, potential solution is now the current best solution 
+        printSolutionFunction(i, currentBestSolution, goalFunction) # printing info about iteration, goal "score" and subsets
+    return currentBestSolution #if all iterations didnt return newPotentialSolution wchich would be identical as currentBestSolution, just return currentBestSolution
+
+def GetBestNeighbour(currentBestSolution, goalFunction):
+    for index in range(0, len(currentBestSolution)-1): #for so many times is the lenght of problem - (for-element)
+        bestSolutionCopy = copy.deepcopy(currentBestSolution) #full copy of current best solution
+        bestSolutionCopy[(index + 1) % len(currentBestSolution)] = currentBestSolution[index] #bestSolutionCopy[for-element+1 % lenght of problem(eg 4)]=currentBestSolution[for-element(eg 3)]
+        bestSolutionCopy[index] = currentBestSolution[(index + 1) % len(currentBestSolution)] #bestSolutionCopy[for-element(eg 3)]=currentBestSolution[for-element+1 % lenght of problem(eg 4)]
+        if (goalFunction(bestSolutionCopy) <= goalFunction(currentBestSolution)): #comparing goal 'score' of bestSolutionCopy with currentBestSolution
+            currentBestSolution = bestSolutionCopy #if better, bestSolutionCopy is our new currentBestSolution -> iterate with next forward neighbour
+    return currentBestSolution #after comparing all values in for indexes return the best solution
 
 def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
     print("" + str(iterationIndex) + " | Score distance: " + str(goalFunction(currentBestSolution)))
 
-def SimAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, temperature, iterations, printSolutionFunction):
-    currentBestSolution = generatedFirstRandomSolution()
-    allBestSolutions = [currentBestSolution]
-    for i in range(1, iterations+1):
-        newPotentialSolution = generatedBestNeighbour(currentBestSolution)
-        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)):
-            currentBestSolution = newPotentialSolution
-            allBestSolutions.append(currentBestSolution)
-        else:
-            e = math.exp(- abs(goalFunction(newPotentialSolution) - goalFunction(currentBestSolution))/temperature(i))
-            u = random.uniform(0.0,1.0)
-            if (u < e):
+def SimAnnealing(goalFunction, generatedFirstRandomSolution, generatedRandomNeighbour, temperature, iterations, printSolutionFunction):
+    currentBestSolution = generatedFirstRandomSolution() #generating randomely rearanged problem as first solution
+    allBestSolutions = [currentBestSolution] #new list with all currentBestSolutions during operations
+    for temperatureDivider in range(1, iterations+1): #foreach iteration
+        newPotentialSolution = generatedRandomNeighbour(currentBestSolution) #new potential solution by swaping two indexes of values
+        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)): #comparing if goal of new potential solution is better or equal than first solution/new best solution
+            currentBestSolution = newPotentialSolution #if is better or equal, current best solution is the previous potential solution
+            allBestSolutions.append(currentBestSolution) #add new best solution to list of all best solutions 
+        else: # if newPotentialSolution was worse
+            e = math.exp(- abs(goalFunction(newPotentialSolution) - goalFunction(currentBestSolution))/temperature(temperatureDivider))
+            probability = random.uniform(0.0,1.0)
+            if (probability < e):
                 currentBestSolution = newPotentialSolution
                 allBestSolutions.append(currentBestSolution)
-        printSolutionFunction(i-1, currentBestSolution, goalFunction)
-    return min(allBestSolutions, key=goalFunction)
+        printSolutionFunction(temperatureDivider-1, currentBestSolution, goalFunction) # printing info about iteration, goal "score" and subsets
+    return min(allBestSolutions, key=goalFunction) #return the best solution with best goal "score" in allBestSolutions list
 
 exampleProblem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 exampleProblem2 = [1, 2, 5, 6, 7, 9]
@@ -180,18 +176,21 @@ for current_argument, current_value in arguments:
         problem = jsonparsed["dataset"]
     if current_argument in ("--fullsearch"):
         print ("fullsearch chosen ")
-        FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
+        finalSolution = FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
     if current_argument in ("--hillclimbingdeterministic"):
         print ("hillClimbingDeterministic chosen ")
-        HillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetBestNeighbour, iterations, PrintSolution)
+        finalSolution = HillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetBestNeighbour, iterations, PrintSolution)
     if current_argument in ("--hillclimbingrandomized"):
         print ("hillClimbingRandomized chosen ")
-        HillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, iterations, PrintSolution)
+        finalSolution = HillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, iterations, PrintSolution)   
     if current_argument in ("--simannealing"):
         print ("simAnnealing chosen ")
-        SimAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
+        finalSolution = SimAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
 
-
+print("------------------------------------------------")
+print("initial problem: " + str(generatedProblem))
+print("final solution: " + str(finalSolution))
+print("Final goal 'score/distance': " + str(GoalFunction(finalSolution,generatedProblem)))
 
 
 # for arg in sys.argv:
