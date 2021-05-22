@@ -1,34 +1,17 @@
 import copy
-import sys
+import getopt, sys
 import math
 import itertools
 import random
 import json
-
-exampleProblem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-exampleProblem2 = [1, 2, 5, 6, 7, 9]
-exampleSolution = [[9, 3, 2], [8, 5, 1], [7, 3, 4]]
-sol1 = [8, 4, 0, 6, 5, 1, 2, 3, 7]
-sol = [9, 5, 1, 7, 6, 2, 3, 4, 8]
-
-if len(sys.argv) > 1:
-    maxProblemInputValue = int(sys.argv[1])
-else:
-    maxProblemInputValue = 20
-
-if len(sys.argv) > 2:
-    maxProblemInputLenght = int(sys.argv[2])
-else:
-    maxProblemInputLenght = 20
 
 def GenerateProblem():
     dividableByThree = False
     sumDividableByNumberOfSubsets = False
     problem = []
     while not dividableByThree:
-        randomProblemLenght = int(random.uniform(6, maxProblemInputLenght))
+        randomProblemLenght = int(random.uniform(9, maxProblemInputLenght))
         print("random lenght number: ", randomProblemLenght)
-
         if randomProblemLenght % 3 == 0 and randomProblemLenght != 0:
             dividableByThree = True
             print("generated problem lenght is: ", randomProblemLenght)
@@ -131,7 +114,7 @@ def getRandomNeighbour2(currentBestSolution):
     return currentBestSolution
 
 def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
-    print("" + str(iterationIndex) + " " + str(goalFunction(currentBestSolution)))
+    print("" + str(iterationIndex) + " | Score distance: " + str(goalFunction(currentBestSolution)))
 
 def simAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, temperature, iterations, printSolutionFunction):
     currentBestSolution = generatedFirstRandomSolution()
@@ -151,14 +134,83 @@ def simAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighb
     
     return min(allBestSolutions, key=goalFunction)
 
-generatedProblem = GenerateProblem()
-#goal_function(sol1, exampleProblem)
-#goal_function(generate_first_solution(generatedProblem), generatedProblem)
-#FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
-#generate_first_solution(exampleProblem)
-iterations = 1000
-#hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
-#hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
-simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
-#print(GoalFunction(finalSolution,generatedProblem))
+exampleProblem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+exampleProblem2 = [1, 2, 5, 6, 7, 9]
+exampleSolution = [[9, 3, 2], [8, 5, 1], [7, 3, 4]]
+sol1 = [8, 4, 0, 6, 5, 1, 2, 3, 7]
+sol = [9, 5, 1, 7, 6, 2, 3, 4, 8]
 
+minProblemInputValue = 1
+maxProblemInputValue = 20
+minProblemInputLenght = 9
+maxProblemInputLenght = 20
+iterations = 500
+generatedProblem = exampleProblem
+
+full_cmd_arguments = sys.argv
+argument_list = full_cmd_arguments[1:]
+
+short_options = "ho:v"
+long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=", "generateproblem", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing"]
+
+try:
+    arguments, values = getopt.getopt(argument_list, short_options, long_options)
+except getopt.error as err:
+    # Output error, and return with an error code
+    print (str(err))
+    sys.exit(2)
+
+# Evaluate given options
+for current_argument, current_value in arguments:
+    if current_argument in ("--minvalue"):
+        print ("Min problem element value set to " + current_value)
+        minProblemInputValue = int(current_value)
+    if current_argument in ("--maxvalue"):
+        print ("Max problem element value set to " + current_value)
+        maxProblemInputValue = int(current_value)
+    if current_argument in ("--minlenght"):
+        print ("Max problem lenght set to " + current_value)
+        minProblemInputLenght = int(current_value)
+    if current_argument in ("--maxlenght"):
+        print ("Max problem lenght set to " + current_value)
+        maxProblemInputLenght = int(current_value)
+    if current_argument in ("--iterations"):
+        print ("problem iterations were set to " + current_value)
+        iterations = int(current_value)
+    if current_argument in ("--generateproblem"):
+        print ("generating problem ")
+        generatedProblem = GenerateProblem()
+    if current_argument in ("--fullsearch"):
+        print ("fullsearch chosen ")
+        FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
+    if current_argument in ("--hillclimbingdeterministic"):
+        print ("hillClimbingDeterministic chosen ")
+        hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
+    if current_argument in ("--hillclimbingrandomized"):
+        print ("hillClimbingRandomized chosen ")
+        hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
+    if current_argument in ("--simannealing"):
+        print ("simAnnealing chosen ")
+        simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
+
+
+
+
+# for arg in sys.argv:
+#     if sys.argv[1] != 0:
+#         maxProblemInputValue = int(sys.argv[1])
+#     if sys.argv[2] != 0:
+#         maxProblemInputLenght = int(sys.argv[2])
+#     else:
+#         maxProblemInputLenght = 20
+#     if arg == '-iterations':  
+#     if arg == '-generateproblem':
+#         generatedProblem = GenerateProblem()
+#     if arg == '-fullsearch':
+#         FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
+#     if arg == '-hillclimbingdeterministic':
+#         hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
+#     if arg == '-hillclimbingrandomized':
+#         hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
+#     if arg == '-simannealing':
+#         simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
