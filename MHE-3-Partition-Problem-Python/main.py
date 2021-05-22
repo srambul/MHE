@@ -133,32 +133,32 @@ def getRandomNeighbour2(currentBestSolution):
 def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
     print("" + str(iterationIndex) + " " + str(goalFunction(currentBestSolution)))
 
-def simAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, T, iterations, printSolutionFunction):
-    currentBest = generatedFirstRandomSolution()
-    V = [currentBest]
+def simAnnealing(goalFunction, generatedFirstRandomSolution, generatedBestNeighbour, temperature, iterations, printSolutionFunction):
+    currentBestSolution = generatedFirstRandomSolution()
+    allBestSolutions = [currentBestSolution]
     for i in range(1, iterations+1):
-        newPotentialSolution = generatedBestNeighbour(currentBest)
-        if (goalFunction(newPotentialSolution) <= goalFunction(currentBest)):
-            currentBest = newPotentialSolution
-            V.append(currentBest)
+        newPotentialSolution = generatedBestNeighbour(currentBestSolution)
+        if (goalFunction(newPotentialSolution) <= goalFunction(currentBestSolution)):
+            currentBestSolution = newPotentialSolution
+            allBestSolutions.append(currentBestSolution)
         else:
-            e = math.exp(- abs(goalFunction(newPotentialSolution) - goalFunction(currentBest))/T(i))
+            e = math.exp(- abs(goalFunction(newPotentialSolution) - goalFunction(currentBestSolution))/temperature(i))
             u = random.uniform(0.0,1.0)
             if (u < e):
-                currentBest = newPotentialSolution
-                V.append(currentBest)
-        printSolutionFunction(i-1, currentBest, goalFunction)
+                currentBestSolution = newPotentialSolution
+                allBestSolutions.append(currentBestSolution)
+        printSolutionFunction(i-1, currentBestSolution, goalFunction)
     
-    return min(V, key=goalFunction)
+    return min(allBestSolutions, key=goalFunction)
 
 generatedProblem = GenerateProblem()
 #goal_function(sol1, exampleProblem)
 #goal_function(generate_first_solution(generatedProblem), generatedProblem)
-FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
+#FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
 #generate_first_solution(exampleProblem)
 iterations = 1000
 #hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
 #hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
-#finalSolution = simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
+simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
 #print(GoalFunction(finalSolution,generatedProblem))
 
