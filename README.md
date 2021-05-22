@@ -6,4 +6,5 @@ Dane wejściowe:
 - zbiór/tablica liczb naturalnych
 
 Dane wyjściowe
-- zbiory/tablice trzyelementowe liczb o jednakowej sumie
+- zbiory/tablice trzyelementowe liczb o jednakowej sumie, lub o zbliżonej sumie
+- wartość bezwzględna sumy odległości sum podzbiorów od średniej wartości zbioru werjściowego
