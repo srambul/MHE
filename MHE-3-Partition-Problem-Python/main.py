@@ -191,23 +191,3 @@ print("------------------------------------------------")
 print("initial problem: " + str(generatedProblem))
 print("final solution: " + str(finalSolution))
 print("Final goal 'score/distance': " + str(GoalFunction(finalSolution,generatedProblem)))
-
-
-# for arg in sys.argv:
-#     if sys.argv[1] != 0:
-#         maxProblemInputValue = int(sys.argv[1])
-#     if sys.argv[2] != 0:
-#         maxProblemInputLenght = int(sys.argv[2])
-#     else:
-#         maxProblemInputLenght = 20
-#     if arg == '-iterations':  
-#     if arg == '-generateproblem':
-#         generatedProblem = GenerateProblem()
-#     if arg == '-fullsearch':
-#         FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
-#     if arg == '-hillclimbingdeterministic':
-#         hillClimbingDeterministic(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getBestNeighbour, iterations, PrintSolution)
-#     if arg == '-hillclimbingrandomized':
-#         hillClimbingRandomized(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, iterations, PrintSolution)
-#     if arg == '-simannealing':
-#         simAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), getRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
