@@ -4,6 +4,9 @@ import math
 import itertools
 import random
 import json
+import operator
+import pandas as pd
+import numpy as np
 
 def GenerateProblem():
     dividableByThree = False
@@ -53,7 +56,113 @@ def GoalFunction(solution, problem):
         score = score + abs(perfectSum - subSet)
     print("Distance: " + str(score))
     return score
+
+def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iterations, printSolutionFunction):
+    for i in range(0, iterations):
+        print("\n generation number: " + str(i) + "\n")
+        population = NextGeneration(population, eliteSize, mutationRate, goalFunction)
+    bestRouteIndex = RankPopulation(population,goalFunction)[0][0]
+    bestRoute = population[bestRouteIndex]
+    return bestRoute
+
+def GeneratePopulation(populationSize,problem):
+    population = []
+    for i in range(0, populationSize):
+        population.append(GenerateFirstRandomSolution(len(problem)))
+    return population
     
+def RankPopulation(population, goalFunction):
+    populationscores = {}
+    for i in range(0,len(population)):
+        populationscores[i] = (goalFunction(population[i]))
+    print("sorted current gengeration populations scores: "+ str(sorted(populationscores.items(), key = operator.itemgetter(1))))
+    return sorted(populationscores.items(), key = operator.itemgetter(1))
+
+def NextGeneration(currentPopulation, eliteSize, mutationRate,goalFunction):
+    popRanked = RankPopulation(currentPopulation,goalFunction)
+    selectionResults = selection(popRanked, eliteSize)
+    print("current population: " + str(currentPopulation))
+    print("Elite selection for current population: " + str(selectionResults))
+    matingpool = matingPool(currentPopulation, selectionResults)
+    children = breedPopulation(matingpool, eliteSize)
+    nextGeneration = mutatePopulation(children, mutationRate)
+    return nextGeneration
+
+def selection(popRanked, eliteSize):
+    selectionResults = []
+    df = pd.DataFrame(np.array(popRanked), columns=["Index","Fitness"])
+    df['cum_sum'] = df.Fitness.cumsum()
+    df['cum_perc'] = 100*df.cum_sum/df.Fitness.sum()
+    
+    for i in range(0, eliteSize):
+        selectionResults.append(popRanked[i][0])
+    for i in range(0, len(popRanked) - eliteSize):
+        pick = 100*random.random()
+        for i in range(0, len(popRanked)):
+            if pick <= df.iat[i,3]:
+                selectionResults.append(popRanked[i][0])
+                break
+    return selectionResults
+
+def matingPool(population, selectionResults):
+    matingpool = []
+    for i in range(0, len(selectionResults)):
+        index = selectionResults[i]
+        matingpool.append(population[index])
+    return matingpool
+
+def breedPopulation(matingpool, eliteSize):
+    children = []
+    length = len(matingpool) - eliteSize
+    pool = random.sample(matingpool, len(matingpool))
+
+    for i in range(0,eliteSize):
+        children.append(matingpool[i])
+    
+    for i in range(0, length):
+        child = breed(pool[i], pool[len(matingpool)-i-1])
+        children.append(child)
+    return children
+
+def breed(parent1, parent2):
+    child = []
+    childP1 = []
+    childP2 = []
+    
+    geneA = int(random.random() * len(parent1))
+    geneB = int(random.random() * len(parent1))
+    
+    startGene = min(geneA, geneB)
+    endGene = max(geneA, geneB)
+
+    for i in range(startGene, endGene):
+        childP1.append(parent1[i])
+        
+    childP2 = [item for item in parent2 if item not in childP1]
+
+    child = childP1 + childP2
+    return child
+
+def mutate(individual, mutationRate):
+    for swapped in range(len(individual)):
+        if(random.random() < mutationRate):
+            swapWith = int(random.random() * len(individual))
+            
+            city1 = individual[swapped]
+            city2 = individual[swapWith]
+            
+            individual[swapped] = city2
+            individual[swapWith] = city1
+    return individual
+
+def mutatePopulation(population, mutationRate):
+    mutatedPop = []
+    
+    for ind in range(0, len(population)):
+        mutatedInd = mutate(population[ind], mutationRate)
+        mutatedPop.append(mutatedInd)
+    return mutatedPop
+
 def FullSearch(goalFunction, problem, printSolutionFunction):
     potentialSolution = list(range(0, len(problem)))
     currentBestSolution = potentialSolution
@@ -126,7 +235,7 @@ def SimAnnealing(goalFunction, generatedFirstRandomSolution, generatedRandomNeig
         printSolutionFunction(temperatureDivider-1, currentBestSolution, goalFunction) # printing info about iteration, goal "score" and subsets
     return min(allBestSolutions, key=goalFunction) #return the best solution with best goal "score" in allBestSolutions list
 
-exampleProblem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+exampleProblem = [6, 12, 10, 9, 11, 18, 9, 15, 11, 15, 9, 10, 16, 14, 15, 7, 12, 18, 3, 1, 6, 9, 5, 8, 12, 6, 4, 4, 2, 15, 3, 4, 1, 5, 13, 13, 8, 2, 4, 4, 4, 3, 10, 12, 8, 11, 14, 5]
 exampleProblem2 = [1, 2, 5, 6, 7, 9]
 
 minProblemInputValue = 1
@@ -140,7 +249,7 @@ full_cmd_arguments = sys.argv
 argument_list = full_cmd_arguments[1:]
 
 short_options = ""
-long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=", "generateproblem", "customproblem", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing"]
+long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
 
 try:
     arguments, values = getopt.getopt(argument_list, short_options, long_options)
@@ -166,6 +275,15 @@ for current_argument, current_value in arguments:
     if current_argument in ("--iterations"):
         print ("problem iterations were set to " + current_value)
         iterations = int(current_value)
+    if current_argument in ("--popsize"):
+        print ("popsize was set to " + current_value)
+        popsize = int(current_value)
+    if current_argument in ("--elitesize"):
+        print ("elite size was set to " + current_value)
+        eliteSize = int(current_value)
+    if current_argument in ("--mutationrate"):
+        print ("mutation rate was set to " + current_value)
+        mutationRate = float(current_value)
     if current_argument in ("--generateproblem"):
         print ("generating problem ")
         generatedProblem = GenerateProblem()
@@ -173,7 +291,8 @@ for current_argument, current_value in arguments:
         print("getting custom problem from custom_problem.json file")
         with open("custom_problem.json") as jsonfile:
             jsonparsed = json.load(jsonfile)
-        problem = jsonparsed["dataset"]
+        generatedProblem = jsonparsed["dataset"]
+        print("custom problem: " + str(generatedProblem))
     if current_argument in ("--fullsearch"):
         print ("fullsearch chosen ")
         finalSolution = FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
@@ -186,8 +305,12 @@ for current_argument, current_value in arguments:
     if current_argument in ("--simannealing"):
         print ("simAnnealing chosen ")
         finalSolution = SimAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
+    if current_argument in ("--evoprog"):
+        print("evolutionary program chosen ")
+        finalSolution = EvolutionaryProgram(lambda s: GoalFunction(s, generatedProblem), GeneratePopulation(popsize,generatedProblem), mutationRate, eliteSize, iterations, PrintSolution)
 
 print("------------------------------------------------")
 print("initial problem: " + str(generatedProblem))
 print("final solution: " + str(finalSolution))
 print("Final goal 'score/distance': " + str(GoalFunction(finalSolution,generatedProblem)))
+
