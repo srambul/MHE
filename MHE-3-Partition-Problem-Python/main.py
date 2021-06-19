@@ -56,7 +56,7 @@ def GoalFunction(solution, problem):
     #print("Distance: " + str(score))
     return score
 
-def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iterations, printSolutionFunction,showPlot):
+def GeneticAlg( goalFunction, population, mutationRate, eliteSize, iterations, printSolutionFunction,showPlot):
     if(showPlot):
         progress = []
         progress.append(RankPopulation(population,goalFunction)[0][1]) #get distance of the best population solution in this generation
@@ -65,15 +65,16 @@ def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iter
         population = NextGeneration(population, eliteSize, mutationRate, goalFunction) #create new crossover generation based on previous
         if(showPlot):
             progress.append(RankPopulation(population,goalFunction)[0][1])
-    bestRouteIndex = RankPopulation(population,goalFunction)[0][0]
-    bestRoute = population[bestRouteIndex]
+    lastbestSolutionIndex = RankPopulation(population,goalFunction)[0][0]
+    lastBestSolution = population[lastbestSolutionIndex]
     if(showPlot):
         plt.plot(progress)
-        plt.ylabel('Distance')
+        plt.gca().invert_yaxis()
+        plt.ylabel('Fitness')
         plt.xlabel('Generation')
         plt.show()
     print("so far the best solution in all generations: " + str(max(progress)))
-    return bestRoute
+    return lastBestSolution
 
 def GeneratePopulation(populationSize,problem):
     population = []
@@ -83,62 +84,60 @@ def GeneratePopulation(populationSize,problem):
     
 def RankPopulation(population, goalFunction):
     populationscores = {}
-    for i in range(0,len(population)):
-        populationscores[i] = (GoalFunctionToFitness(goalFunction(population[i])))
+    for index in range(0,len(population)):
+        populationscores[index] = (GoalFunctionToFitness(goalFunction(population[index])))
     #print("sorted current gengeration populations scores: "+ str(sorted(populationscores.items(), key = operator.itemgetter(1))))
     return sorted(populationscores.items(), key = operator.itemgetter(1), reverse = True)
 
 def NextGeneration(currentPopulation, eliteSize, mutationRate,goalFunction):
-    popRanked = RankPopulation(currentPopulation,goalFunction)
-    selectionResults = Selection(popRanked, eliteSize)
+    rankedPopulation = RankPopulation(currentPopulation,goalFunction)
+    selectionResults = Selection(rankedPopulation, eliteSize)
     #print("current population: " + str(currentPopulation))
     #print("Elite selection for current population: " + str(selectionResults))
     matingPool = MatingPool(currentPopulation, selectionResults)
-    children = BreedPopulation(matingPool, eliteSize)
+    children = CrossoverPopulation(matingPool, eliteSize)
     nextGeneration = MutatePopulation(children, mutationRate)
     return nextGeneration
 
-def Selection(popRanked, eliteSize):
+def Selection(rankedPopulation, eliteSize):
     selectionResults = []
-    df = pd.DataFrame(np.array(popRanked), columns=["Index","Fitness"])
-    df['cum_sum'] = df.Fitness.cumsum()
-    df['cum_perc'] = 100*df.cum_sum/df.Fitness.sum()
+    df = pd.DataFrame(np.array(rankedPopulation), columns=["Index","Fitness"])
+    df['roulette_prec'] = 100*df.Fitness.cumsum()/df.Fitness.sum()
     
     for i in range(0, eliteSize):
-        selectionResults.append(popRanked[i][0])
-    for i in range(0, len(popRanked) - eliteSize): #0-(10-4)|0-6
-        pick = 100*random.random()
-        for i in range(0, len(popRanked)):
-            if pick <= df.iat[i,3]:
-                selectionResults.append(popRanked[i][0])
+        selectionResults.append(rankedPopulation[i][0])
+    for i in range(0, len(rankedPopulation) - eliteSize):
+        randomPick = 100*random.random()
+        for i in range(0, len(rankedPopulation)):
+            if randomPick <= df.iat[i,2]:
+                selectionResults.append(rankedPopulation[i][0])
                 break
     return selectionResults
 
 def MatingPool(population, selectionResults):
     matingPool = []
-    for i in range(0, len(selectionResults)):
-        index = selectionResults[i]
-        matingPool.append(population[index])
-    #print("mating pool: "+str(matingPool))
+    for elementIndex in range(0, len(selectionResults)):
+        indexOfSelectionResultsItem = selectionResults[elementIndex]
+        matingPool.append(population[indexOfSelectionResultsItem])
     return matingPool
 
-def BreedPopulation(matingpool, eliteSize):
+def CrossoverPopulation(matingpool, eliteSize):
     children = []
     length = len(matingpool) - eliteSize
-    pool = random.sample(matingpool, len(matingpool))
+    randomUniqueSolutionElement = random.sample(matingpool, len(matingpool))
 
     for i in range(0,eliteSize):
         children.append(matingpool[i])
     
     for i in range(0, length):
-        child = Breed(pool[i], pool[len(matingpool)-i-1])
+        child = CrossoverTwoParents(randomUniqueSolutionElement[i], randomUniqueSolutionElement[len(matingpool)-i-1])
         children.append(child)
     return children
 
-def Breed(parent1, parent2):
+def CrossoverTwoParents(parent1, parent2):
     child = []
-    childP1 = []
-    childP2 = []
+    parentGenes1 = []
+    parentGenes2 = []
     
     geneA = int(random.random() * len(parent1))
     geneB = int(random.random() * len(parent1))
@@ -147,32 +146,28 @@ def Breed(parent1, parent2):
     endGene = max(geneA, geneB)
 
     for i in range(startGene, endGene):
-        childP1.append(parent1[i])
+        parentGenes1.append(parent1[i])
         
-    childP2 = [item for item in parent2 if item not in childP1]
-
-    child = childP1 + childP2
+    parentGenes2 = [item for item in parent2 if item not in parentGenes1]
+    child = parentGenes1 + parentGenes2
     return child
 
 def MutatePopulation(population, mutationRate):
-    mutatedPop = []
-    
-    for ind in range(0, len(population)):
-        mutatedInd = Mutate(population[ind], mutationRate)
-        mutatedPop.append(mutatedInd)
-    return mutatedPop
+    mutatedPopulation = []
+    for solutionItemIndex in range(0, len(population)):
+        mutatedsingleSolution = Mutate(population[solutionItemIndex], mutationRate)
+        mutatedPopulation.append(mutatedsingleSolution)
+    return mutatedPopulation
 
-def Mutate(individual, mutationRate):
-    for swapped in range(len(individual)):
+def Mutate(mutatedsingleSolution, mutationRate):
+    for solutionItemIndex in range(len(mutatedsingleSolution)):
         if(random.random() < mutationRate):
-            swapWith = int(random.random() * len(individual))
-            
-            solutionElement1 = individual[swapped]
-            solutionElement2 = individual[swapWith]
-            
-            individual[swapped] = solutionElement2
-            individual[swapWith] = solutionElement1
-    return individual
+            randomSolutionItemIndex = int(random.random() * len(mutatedsingleSolution))
+            currentSolutionElement = mutatedsingleSolution[solutionItemIndex]
+            randomSolutionItem = mutatedsingleSolution[randomSolutionItemIndex]
+            mutatedsingleSolution[solutionItemIndex] = randomSolutionItem
+            mutatedsingleSolution[randomSolutionItemIndex] = currentSolutionElement
+    return mutatedsingleSolution
 
 def FullSearch(goalFunction, problem, printSolutionFunction):
     potentialSolution = list(range(0, len(problem)))
@@ -258,13 +253,13 @@ maxProblemInputLenght = 20
 iterations = 500
 generatedProblem = exampleProblem
 printFunction = PrintSolution
-showPlot = False;
+showPlot = False
 
 full_cmd_arguments = sys.argv
 argument_list = full_cmd_arguments[1:]
 
 short_options = ""
-long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem=","nodebug","showplot", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
+long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem=","nodebug","showplot", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","genalg"]
 
 try:
     arguments, values = getopt.getopt(argument_list, short_options, long_options)
@@ -325,9 +320,9 @@ for current_argument, current_value in arguments:
     if current_argument in ("--simannealing"):
         print ("simAnnealing chosen ")
         finalSolution = SimAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
-    if current_argument in ("--evoprog"):
+    if current_argument in ("--genalg"):
         print("evolutionary program chosen ")
-        finalSolution = EvolutionaryProgram(lambda s: GoalFunction(s, generatedProblem), GeneratePopulation(popsize,generatedProblem), mutationRate, eliteSize, iterations, PrintSolution,showPlot)
+        finalSolution = GeneticAlg(lambda s: GoalFunction(s, generatedProblem), GeneratePopulation(popsize,generatedProblem), mutationRate, eliteSize, iterations, PrintSolution,showPlot)
 
 print("------------------------------------------------")
 print("initial problem: " + str(generatedProblem))
