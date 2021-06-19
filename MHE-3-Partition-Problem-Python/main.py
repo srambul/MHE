@@ -260,7 +260,7 @@ full_cmd_arguments = sys.argv
 argument_list = full_cmd_arguments[1:]
 
 short_options = ""
-long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem","nodebug","showplot", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
+long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem=","nodebug","showplot", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
 
 try:
     arguments, values = getopt.getopt(argument_list, short_options, long_options)
@@ -299,8 +299,8 @@ for current_argument, current_value in arguments:
         print ("generating problem ")
         generatedProblem = GenerateProblem()
     if current_argument in ("--customproblem"):
-        print("getting custom problem from custom_problem.json file")
-        with open("custom_problem.json") as jsonfile:
+        print("getting custom problem from " + str(current_value) + " file")
+        with open(str(current_value)) as jsonfile:
             jsonparsed = json.load(jsonfile)
         generatedProblem = jsonparsed["dataset"]
         print("custom problem: " + str(generatedProblem))
