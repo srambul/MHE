@@ -38,6 +38,9 @@ def GenerateFirstRandomSolution(problemLenght):
         del problemIndexList[randomProblemIndex]
     return generatedFirstRandomSolution
 
+def GoalFunctionToFitness(distance):
+    return 1.0/(1.0+ distance)
+
 def GoalFunction(solution, problem):
     numberOfSubsets = int(len(problem) / 3)
     it = iter(solution)
@@ -69,6 +72,7 @@ def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iter
         plt.ylabel('Distance')
         plt.xlabel('Generation')
         plt.show()
+    print("so far the best solution in all generations: " + str(max(progress)))
     return bestRoute
 
 def GeneratePopulation(populationSize,problem):
@@ -80,9 +84,9 @@ def GeneratePopulation(populationSize,problem):
 def RankPopulation(population, goalFunction):
     populationscores = {}
     for i in range(0,len(population)):
-        populationscores[i] = (goalFunction(population[i]))
+        populationscores[i] = (GoalFunctionToFitness(goalFunction(population[i])))
     #print("sorted current gengeration populations scores: "+ str(sorted(populationscores.items(), key = operator.itemgetter(1))))
-    return sorted(populationscores.items(), key = operator.itemgetter(1))
+    return sorted(populationscores.items(), key = operator.itemgetter(1), reverse = True)
 
 def NextGeneration(currentPopulation, eliteSize, mutationRate,goalFunction):
     popRanked = RankPopulation(currentPopulation,goalFunction)
@@ -150,6 +154,14 @@ def Breed(parent1, parent2):
     child = childP1 + childP2
     return child
 
+def MutatePopulation(population, mutationRate):
+    mutatedPop = []
+    
+    for ind in range(0, len(population)):
+        mutatedInd = Mutate(population[ind], mutationRate)
+        mutatedPop.append(mutatedInd)
+    return mutatedPop
+
 def Mutate(individual, mutationRate):
     for swapped in range(len(individual)):
         if(random.random() < mutationRate):
@@ -161,14 +173,6 @@ def Mutate(individual, mutationRate):
             individual[swapped] = solutionElement2
             individual[swapWith] = solutionElement1
     return individual
-
-def MutatePopulation(population, mutationRate):
-    mutatedPop = []
-    
-    for ind in range(0, len(population)):
-        mutatedInd = Mutate(population[ind], mutationRate)
-        mutatedPop.append(mutatedInd)
-    return mutatedPop
 
 def FullSearch(goalFunction, problem, printSolutionFunction):
     potentialSolution = list(range(0, len(problem)))
@@ -224,6 +228,7 @@ def GetBestNeighbour(currentBestSolution, goalFunction):
 
 def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
     print("" + str(iterationIndex) + " | Score distance: " + str(goalFunction(currentBestSolution)))
+    
 def DontPrintSolution():
     return 0
 
@@ -246,7 +251,6 @@ def SimAnnealing(goalFunction, generatedFirstRandomSolution, generatedRandomNeig
 
 exampleProblem = [6, 12, 10, 9, 11, 18, 9, 15, 11, 15, 9, 10, 16, 14, 15, 7, 12, 18, 3, 1, 6, 9, 5, 8, 12, 6, 4, 4, 2, 15, 3, 4, 1, 5, 13, 13, 8, 2, 4, 4, 4, 3, 10, 12, 8, 11, 14, 5]
 exampleProblem2 = [1, 2, 5, 6, 7, 9]
-
 minProblemInputValue = 1
 maxProblemInputValue = 20
 minProblemInputLenght = 9
