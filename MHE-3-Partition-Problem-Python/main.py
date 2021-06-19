@@ -7,6 +7,7 @@ import json
 import operator
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 def GenerateProblem():
     dividableByThree = False
@@ -14,21 +15,16 @@ def GenerateProblem():
     problem = []
     while not dividableByThree:
         randomProblemLenght = int(random.uniform(9, maxProblemInputLenght))
-        print("random lenght number: ", randomProblemLenght)
         if randomProblemLenght % 3 == 0 and randomProblemLenght != 0:
             dividableByThree = True
-            print("generated problem lenght is: ", randomProblemLenght)
 
     numberOfSubsets = int(randomProblemLenght / 3)
     while not sumDividableByNumberOfSubsets:
         problem.clear()
         for i in range(0, randomProblemLenght):
             problem.append(int(random.uniform(1, maxProblemInputValue)))
-        print("Proposed problem: ", problem)
         if sum(problem) % numberOfSubsets == 0:
             sumDividableByNumberOfSubsets = True
-        else:
-            print("Proposed above problem does not qualify for calculations")
 
     print("Our problem: ", problem)
     return problem
@@ -46,23 +42,33 @@ def GoalFunction(solution, problem):
     numberOfSubsets = int(len(problem) / 3)
     it = iter(solution)
     perfectSum = int(sum(problem) / numberOfSubsets)
-    print("perfect sum: " + str(perfectSum))
+    #print("perfect sum: " + str(perfectSum))
     subSets = set()
     for a, b, c in zip(it, it, it):
         subSets.add(problem[a] + problem[b] + problem[c])
-        print("subset:" + str(problem[a]) + "," + str(problem[b]) + "," + str(problem[c]) + " Sum: " + str(problem[a] + problem[b] + problem[c]))
+        #print("subset:" + str(problem[a]) + "," + str(problem[b]) + "," + str(problem[c]) + " Sum: " + str(problem[a] + problem[b] + problem[c]))
     score = 0
     for subSet in subSets:
         score = score + abs(perfectSum - subSet)
-    print("Distance: " + str(score))
+    #print("Distance: " + str(score))
     return score
 
-def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iterations, printSolutionFunction):
-    for i in range(0, iterations):
-        print("\n generation number: " + str(i) + "\n")
-        population = NextGeneration(population, eliteSize, mutationRate, goalFunction)
+def EvolutionaryProgram( goalFunction, population, mutationRate, eliteSize, iterations, printSolutionFunction,showPlot):
+    if(showPlot):
+        progress = []
+        progress.append(RankPopulation(population,goalFunction)[0][1]) #get distance of the best population solution in this generation
+    for i in range(0, iterations): #times the amount of iterations
+        #print("\n generation number: " + str(i) + "\n")
+        population = NextGeneration(population, eliteSize, mutationRate, goalFunction) #create new crossover generation based on previous
+        if(showPlot):
+            progress.append(RankPopulation(population,goalFunction)[0][1])
     bestRouteIndex = RankPopulation(population,goalFunction)[0][0]
     bestRoute = population[bestRouteIndex]
+    if(showPlot):
+        plt.plot(progress)
+        plt.ylabel('Distance')
+        plt.xlabel('Generation')
+        plt.show()
     return bestRoute
 
 def GeneratePopulation(populationSize,problem):
@@ -75,20 +81,20 @@ def RankPopulation(population, goalFunction):
     populationscores = {}
     for i in range(0,len(population)):
         populationscores[i] = (goalFunction(population[i]))
-    print("sorted current gengeration populations scores: "+ str(sorted(populationscores.items(), key = operator.itemgetter(1))))
+    #print("sorted current gengeration populations scores: "+ str(sorted(populationscores.items(), key = operator.itemgetter(1))))
     return sorted(populationscores.items(), key = operator.itemgetter(1))
 
 def NextGeneration(currentPopulation, eliteSize, mutationRate,goalFunction):
     popRanked = RankPopulation(currentPopulation,goalFunction)
-    selectionResults = selection(popRanked, eliteSize)
-    print("current population: " + str(currentPopulation))
-    print("Elite selection for current population: " + str(selectionResults))
-    matingpool = matingPool(currentPopulation, selectionResults)
-    children = breedPopulation(matingpool, eliteSize)
-    nextGeneration = mutatePopulation(children, mutationRate)
+    selectionResults = Selection(popRanked, eliteSize)
+    #print("current population: " + str(currentPopulation))
+    #print("Elite selection for current population: " + str(selectionResults))
+    matingPool = MatingPool(currentPopulation, selectionResults)
+    children = BreedPopulation(matingPool, eliteSize)
+    nextGeneration = MutatePopulation(children, mutationRate)
     return nextGeneration
 
-def selection(popRanked, eliteSize):
+def Selection(popRanked, eliteSize):
     selectionResults = []
     df = pd.DataFrame(np.array(popRanked), columns=["Index","Fitness"])
     df['cum_sum'] = df.Fitness.cumsum()
@@ -96,7 +102,7 @@ def selection(popRanked, eliteSize):
     
     for i in range(0, eliteSize):
         selectionResults.append(popRanked[i][0])
-    for i in range(0, len(popRanked) - eliteSize):
+    for i in range(0, len(popRanked) - eliteSize): #0-(10-4)|0-6
         pick = 100*random.random()
         for i in range(0, len(popRanked)):
             if pick <= df.iat[i,3]:
@@ -104,14 +110,15 @@ def selection(popRanked, eliteSize):
                 break
     return selectionResults
 
-def matingPool(population, selectionResults):
-    matingpool = []
+def MatingPool(population, selectionResults):
+    matingPool = []
     for i in range(0, len(selectionResults)):
         index = selectionResults[i]
-        matingpool.append(population[index])
-    return matingpool
+        matingPool.append(population[index])
+    #print("mating pool: "+str(matingPool))
+    return matingPool
 
-def breedPopulation(matingpool, eliteSize):
+def BreedPopulation(matingpool, eliteSize):
     children = []
     length = len(matingpool) - eliteSize
     pool = random.sample(matingpool, len(matingpool))
@@ -120,11 +127,11 @@ def breedPopulation(matingpool, eliteSize):
         children.append(matingpool[i])
     
     for i in range(0, length):
-        child = breed(pool[i], pool[len(matingpool)-i-1])
+        child = Breed(pool[i], pool[len(matingpool)-i-1])
         children.append(child)
     return children
 
-def breed(parent1, parent2):
+def Breed(parent1, parent2):
     child = []
     childP1 = []
     childP2 = []
@@ -143,23 +150,23 @@ def breed(parent1, parent2):
     child = childP1 + childP2
     return child
 
-def mutate(individual, mutationRate):
+def Mutate(individual, mutationRate):
     for swapped in range(len(individual)):
         if(random.random() < mutationRate):
             swapWith = int(random.random() * len(individual))
             
-            city1 = individual[swapped]
-            city2 = individual[swapWith]
+            solutionElement1 = individual[swapped]
+            solutionElement2 = individual[swapWith]
             
-            individual[swapped] = city2
-            individual[swapWith] = city1
+            individual[swapped] = solutionElement2
+            individual[swapWith] = solutionElement1
     return individual
 
-def mutatePopulation(population, mutationRate):
+def MutatePopulation(population, mutationRate):
     mutatedPop = []
     
     for ind in range(0, len(population)):
-        mutatedInd = mutate(population[ind], mutationRate)
+        mutatedInd = Mutate(population[ind], mutationRate)
         mutatedPop.append(mutatedInd)
     return mutatedPop
 
@@ -217,6 +224,8 @@ def GetBestNeighbour(currentBestSolution, goalFunction):
 
 def PrintSolution(iterationIndex, currentBestSolution, goalFunction):
     print("" + str(iterationIndex) + " | Score distance: " + str(goalFunction(currentBestSolution)))
+def DontPrintSolution():
+    return 0
 
 def SimAnnealing(goalFunction, generatedFirstRandomSolution, generatedRandomNeighbour, temperature, iterations, printSolutionFunction):
     currentBestSolution = generatedFirstRandomSolution() #generating randomely rearanged problem as first solution
@@ -244,12 +253,14 @@ minProblemInputLenght = 9
 maxProblemInputLenght = 20
 iterations = 500
 generatedProblem = exampleProblem
+printFunction = PrintSolution
+showPlot = False;
 
 full_cmd_arguments = sys.argv
 argument_list = full_cmd_arguments[1:]
 
 short_options = ""
-long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
+long_options = ["minvalue=", "maxvalue=", "minlenght=", "maxlenght=", "iterations=","popsize=","elitesize=","mutationrate=", "generateproblem", "customproblem","nodebug","showplot", "fullsearch", "hillclimbingdeterministic", "hillclimbingrandomized", "simannealing","evoprog"]
 
 try:
     arguments, values = getopt.getopt(argument_list, short_options, long_options)
@@ -293,6 +304,11 @@ for current_argument, current_value in arguments:
             jsonparsed = json.load(jsonfile)
         generatedProblem = jsonparsed["dataset"]
         print("custom problem: " + str(generatedProblem))
+    if current_argument in ("--nodebug"):
+        print ("disabled debugging ")
+        printFunction = DontPrintSolution
+    if current_argument in ("--showplot"):
+        showPlot = True
     if current_argument in ("--fullsearch"):
         print ("fullsearch chosen ")
         finalSolution = FullSearch(lambda s: GoalFunction(s, exampleProblem), exampleProblem, PrintSolution)
@@ -307,10 +323,9 @@ for current_argument, current_value in arguments:
         finalSolution = SimAnnealing(lambda s: GoalFunction(s, generatedProblem), lambda: GenerateFirstRandomSolution(len(generatedProblem)), GetRandomNeighbour, lambda k : 1000.0/k, iterations, PrintSolution)
     if current_argument in ("--evoprog"):
         print("evolutionary program chosen ")
-        finalSolution = EvolutionaryProgram(lambda s: GoalFunction(s, generatedProblem), GeneratePopulation(popsize,generatedProblem), mutationRate, eliteSize, iterations, PrintSolution)
+        finalSolution = EvolutionaryProgram(lambda s: GoalFunction(s, generatedProblem), GeneratePopulation(popsize,generatedProblem), mutationRate, eliteSize, iterations, PrintSolution,showPlot)
 
 print("------------------------------------------------")
 print("initial problem: " + str(generatedProblem))
 print("final solution: " + str(finalSolution))
 print("Final goal 'score/distance': " + str(GoalFunction(finalSolution,generatedProblem)))
-
